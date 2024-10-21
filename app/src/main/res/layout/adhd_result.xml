@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adhd_back">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Results:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243"></TextView>
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#886668"
+        android:onClick="home"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="MissingConstraints" />
+
+    <!--        android:visibility="gone"-->
+    <!--        android:visibility="gone"-->
+
+    <Button
+        android:id="@+id/predominantlyinattentivepresentation"
+        android:layout_width="328dp"
+        android:layout_height="56dp"
+
+        android:background="@drawable/button_rounded_corner"
+        android:backgroundTint="#C59C94"
+        android:onClick="predominantlyinattentivepresentation"
+        android:text="predominantly inattentive presentation"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/predominantlyhyperactiveimpulsivepresentation"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_rounded_corner"
+        android:backgroundTint="#FFC59C94"
+        android:onClick="predominantlyhyperactiveimpulsivepresentation"
+        android:text="predominantly hyperactive impulsive presentation"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/difficultygettingalongwithothers"
+        android:layout_width="302dp"
+        android:layout_height="68dp"
+        android:background="@drawable/button_rounded_corner"
+        android:backgroundTint="#FFC59C94"
+        android:onClick="difficultygettingalongwithothers"
+        android:text="difficulty getting along with others"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821"
+        android:visibility="gone"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- Always include this permission -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RegisterLogin"
+        tools:targetApi="31"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <activity
+            android:name=".firstpage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".secondpage">
+        </activity>
+        <activity android:name=".thirdpage">
+        </activity>
+        <activity android:name=".fourthani">
+        </activity>
+        <activity android:name=".fifthani">
+        </activity>
+        <activity android:name=".sixthani">
+        </activity>
+        <activity android:name=".seventhani">
+        </activity>
+        <activity android:name=".chessfrontpage">
+        </activity>
+        <activity android:name=".word_main_start">
+        </activity>
+        <activity android:name=".MemoryGame">
+        </activity>
+        <activity android:name=".newActivity">
+        </activity>
+        <activity android:name=".newActivity2">
+        </activity>
+        <activity android:name=".Anagram">
+        </activity>
+        <activity android:name=".CustomerAdapter">
+        </activity>
+        <activity android:name=".GestureDetectGridView">
+        </activity>
+        <activity android:name=".ImageAdapter">
+        </activity>
+        <activity android:name=".puzzle_front">
+        </activity>
+        <activity android:name=".Puzzle">
+        </activity>
+        <activity android:name=".puzzleSuccess">
+        </activity>
+        <activity android:name=".chessAboutActivity">
+        </activity>
+        <activity android:name=".chessMainActivity">
+        </activity>
+        <activity android:name=".chessGameActivity">
+        </activity>
+        <activity android:name=".chessIsValidTurn">
+        </activity>
+        <activity android:name=".chessReturnColor">
+        </activity>
+        <activity android:name=".chessSpecificMovingRules">
+        </activity>
+        <activity android:name=".chessStorage">
+        </activity>
+        <activity android:name=".chessTurnMethods">
+        </activity>
+        <activity android:name=".chessNameActivity">
+        </activity>
+        <activity android:name=".wordMain">
+        </activity>
+        <activity android:name=".Success">
+        </activity>
+        <activity android:name=".games">
+        </activity>
+        <activity android:name=".Register">
+        </activity>
+        <activity android:name=".parentLogin">
+        </activity>
+        <activity android:name=".parentRegister">
+        </activity>
+        <activity android:name=".detection">
+        </activity>
+        <activity android:name=".autism">
+        </activity>
+        <activity android:name=".autismResult">
+        </activity>
+        <activity android:name=".dyslexia">
+        </activity>
+        <activity android:name=".dyslexiaResult">
+        </activity>
+        <activity android:name=".adhd">
+        </activity>
+        <activity android:name=".adhdResult">
+        </activity>
+        <activity android:name=".community">
+        </activity>
+        <activity android:name=".shapeQuest">
+        </activity>
+        <activity android:name=".shape_quest_firstpage">
+        </activity>
+        <activity android:name=".mapbox">
+        </activity>
+        <activity android:name=".Aboutus">
+        </activity>
+        <activity android:name=".disclaimer">
+        </activity>
+
+    </application>
+
+</manifest>

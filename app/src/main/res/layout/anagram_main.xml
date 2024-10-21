@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:background="@drawable/game_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arcade.io"
+        android:textSize="40sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80sp"/>
+
+    <ImageView
+        android:id="@+id/logo_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arcade_icon1"/>
+
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_id"
+        android:id="@+id/letplay"
+        android:text="Let's Play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:padding="20sp"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_corner"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        />
+
+</RelativeLayout>
+
